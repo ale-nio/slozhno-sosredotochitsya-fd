@@ -14,6 +14,7 @@
 .page.theme_dark {
   --bg-color: #000028;
   --main-font: IBM Plex Mono, monospace;
+  --article-text-color: #F1B2CE;
   --bg-cover-image: url(../images/cover-image-dark.png);
   --accent-color: #FF0070;
   --header-color: #DB00FF;
@@ -22,7 +23,6 @@
   --bg-accent-color: #FF0070;
   --main-text-color: #FF0070;
   --text-two-color: #000;
-  --section-text-color: #F1B2CE;
   --footer-color: #DB00FF;
   --footer-shadow-color: #FF0070;
   --button-color: #FF0070;
@@ -38,32 +38,32 @@
 }
 
 .theme_dark .header__rec {
-  display: inline-block;
+  display: inline-flex;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
   --bg-color: #000028;
   --main-font: IBM Plex Mono, monospace;
+  --article-text-color: #F1B2CE;
+  --bg-accent-color: #FF0070;
   --bg-cover-image: url(../images/cover-image-dark.png);
   --accent-color: #FF0070;
   --header-color: #DB00FF;
   --header-shadow-color: #FF0070;
   --decoration-color: #FF0070;
-  --bg-accent-color: #FF0070;
   --main-text-color: #FF0070;
   --text-two-color: #000;
-  --section-text-color: #F1B2CE;
-  --footer-color: #DB00FF;
-  --footer-shadow-color: #FF0070;
-  --button-color: #FF0070;
-  --button-active-color: #FF0070;
-  --button-hover-color: #FF007066;
-  --button-focus-color: rgba(255, 0, 112);
   --link-color: #F1B2CE;
   --link-shadow-color: #FF0070;
   --link-focus-color: #F1B2CE;
   --link-hover-color: #F1B2CE;
+  --button-color: #FF0070;
+  --button-active-color: #FF0070;
+  --button-hover-color: #FF007066;
+  --button-focus-color: rgba(255, 0, 112);
+  --footer-color: #DB00FF;
+  --footer-shadow-color: #FF0070;
   --max-gap: 20px;
   --min-gap: 10px;
 }
