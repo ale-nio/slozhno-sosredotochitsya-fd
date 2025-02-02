@@ -4,13 +4,6 @@
   переключая тему
 */
 
-:root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-}
-
 .page.theme_dark {
   --bg-color: #000028;
   --main-font: IBM Plex Mono, monospace;
@@ -23,16 +16,16 @@
   --bg-accent-color: #FF0070;
   --main-text-color: #FF0070;
   --text-two-color: #000;
-  --footer-color: #DB00FF;
-  --footer-shadow-color: #FF0070;
-  --button-color: #FF0070;
-  --button-active-color: #FF0070;
-  --button-hover-color: #FF007066;
-  --button-focus-color: rgba(255, 0, 112);
   --link-color: #F1B2CE;
   --link-shadow-color: #FF0070;
   --link-focus-color: #F1B2CE;
   --link-hover-color: #F1B2CE;
+  --button-color: #FF0070;
+  --button-active-color: #FF0070;
+  --button-hover-color: #FF007066;
+  --button-focus-color: rgba(255, 0, 112);
+  --footer-color: #DB00FF;
+  --footer-shadow-color: #FF0070;
   --max-gap: 20px;
   --min-gap: 10px;
 }
