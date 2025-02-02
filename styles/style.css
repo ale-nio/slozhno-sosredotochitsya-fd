@@ -44,7 +44,7 @@ ul {
   color: var(--bg-accent-color, #FF0070);
   text-transform: uppercase;
   right: 20px;
-  gap: 9px;
+  gap:9px;
   top: 10px;
 }
 
@@ -130,6 +130,8 @@ ul {
   font-family: var(--main-font, monospace);
   font-weight: 700;
   line-height: 84%;
+  margin-left: 0;
+  text-align: center;
 }
 
 @media (width >= 768px) {
@@ -402,6 +404,7 @@ section {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-shadow: 2px 2px 0 var(--footer-shadow-color);
   color: var(--footer-color);
+  max-width: 90vw;
   font-weight: 700;
   line-height: 95.7%;
 }
