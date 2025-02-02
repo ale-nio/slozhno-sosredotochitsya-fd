@@ -44,6 +44,7 @@ ul {
   color: var(--bg-accent-color, #FF0070);
   text-transform: uppercase;
   right: 20px;
+  gap: 9px;
   top: 10px;
 }
 
@@ -57,11 +58,9 @@ ul {
 .header__rec::after {
   content: "";
   display: block;
-  position: absolute;
   background-color: var(--bg-accent-color, #FF0070);
   box-shadow: 0 0 4px 2px var(--bg-accent-color, #FF0070);
   border-radius: 50%;
-  top:50%;
   width: 10px;
   height: 10px;
 }
@@ -378,12 +377,6 @@ section {
     "tape books icecream"
     "tape street street";
 }
-}
-
-@media (width: 375px) {
-  .article__image-item {
-    grid-template-columns: 1fr;
-  }
   }
 
 .footer {
