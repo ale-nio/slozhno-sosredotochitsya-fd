@@ -378,6 +378,12 @@ section {
     "tape books icecream"
     "tape street street";
 }
+}
+
+@media (width: 375px) {
+  .article__image-item {
+    grid-template-columns: 1fr;
+  }
   }
 
 .footer {
