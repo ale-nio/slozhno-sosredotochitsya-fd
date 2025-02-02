@@ -385,7 +385,6 @@ section {
   position: relative;
   place-items: center;
   width: 100%;
-  height: 100vh;
   padding: 10px;
   margin-block-start: 40px;
   min-block-size: 668px;
