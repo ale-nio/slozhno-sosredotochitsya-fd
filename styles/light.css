@@ -4,8 +4,9 @@
   переключая тему
 */
 
-.page.theme-light {
---bg-color: #FFF1F7;
+.page.theme_light {
+  --bg-color: #FFF1F7;
+  --main-font: IBM Plex Mono, monospace;
   --bg-cover-image: url(../images/cover-image-light.png);
   --accent-color: #FF8DCB;
   --header-color: #FFC2E6;
@@ -14,7 +15,7 @@
   --bg-accent-color: #FF8DCB;
   --main-text-color: #353430;
   --text-two-color: #353430;
-  --section-text-color: #353430;
+  --article-text-color: #353430;
   --footer-color: #FFC2E6;
   --footer-shadow-color: #FF0070;
   --button-color: #353430;
@@ -26,34 +27,39 @@
   --link-focus-color: #353430;
   --link-hover-color: #353430;
 }
+
 .theme_light .header__rec {
   display: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-  --bg-cover-image: url(../images/cover-image-light.png);
-  --article-text-color: #353430;
   --bg-color: #FFF1F7;
+  --main-font: IBM Plex Mono, monospace;
+  --bg-cover-image: url(../images/cover-image-light.png);
   --accent-color: #FF8DCB;
   --header-color: #FFC2E6;
   --header-shadow-color: #FF0070;
   --decoration-color: #353430;
+  --bg-accent-color: #FF8DCB;
   --main-text-color: #353430;
   --text-two-color: #353430;
-  --link-color: #F1B2CE;
-  --link-shadow-color: #FF0070;
-  --link-focus-color: #353430;
-  --link-hover-color: #353430;
+  --article-text-color: #353430;
+  --footer-color: #FFC2E6;
+  --footer-shadow-color: #FF0070;
   --button-color: #353430;
   --button-active-color: #353430;
   --button-hover-color: #32312D66;
   --button-focus-color: rgba(53, 52, 48);
-  --footer-color: #FFC2E6;
-  --footer-shadow-color: #FF0070;
+  --link-color: #F1B2CE;
+  --link-shadow-color: #FF0070;
+  --link-focus-color: #353430;
+  --link-hover-color: #353430;
   }
   
   .header__rec {
     display: none;
   }
 }
+
+
