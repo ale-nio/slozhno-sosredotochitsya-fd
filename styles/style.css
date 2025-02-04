@@ -7,6 +7,7 @@
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  font-family: var(--main-font, monospace);
 }
 
 .header {
@@ -124,7 +125,7 @@
 
 @media (width >= 768px) {
   .header__title {
-    margin-left: -20px;
+    margin-left: 20px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
@@ -172,10 +173,6 @@
   line-height: 130%;
 }
 
-.title-decor_h4 {
-  font-weight: 400;
-}
-
 .title-decor_text {
   justify-self: end;
 }
@@ -214,7 +211,7 @@ div {
 }
 
 @media (width >= 768px) {
-  .article {
+  .section {
     grid-template-columns: 1fr 2fr;
   }
 }
