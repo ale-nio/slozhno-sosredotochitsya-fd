@@ -6,7 +6,6 @@
 
 .page.theme_light {
   --bg-color: #FFF1F7;
-  --main-font: IBM Plex Mono, monospace;
   --bg-cover-image: url(../images/cover-image-light.png);
   --accent-color: #FF8DCB;
   --header-color: #FFC2E6;
@@ -35,7 +34,6 @@
 @media (prefers-color-scheme: light) {
   :root {
   --bg-color: #FFF1F7;
-  --main-font: IBM Plex Mono, monospace;
   --bg-cover-image: url(../images/cover-image-light.png);
   --accent-color: #FF8DCB;
   --header-color: #FFC2E6;

@@ -24,8 +24,6 @@
   --button-focus-color: rgba(255, 0, 112);
   --footer-color: #DB00FF;
   --footer-shadow-color: #FF0070;
-  --max-gap: 20px;
-  --min-gap: 10px;
 }
 
 .theme_dark .header__rec {
@@ -54,8 +52,5 @@
   --button-focus-color: rgba(255, 0, 112);
   --footer-color: #DB00FF;
   --footer-shadow-color: #FF0070;
-  --max-gap: 20px;
-  --min-gap: 10px;
-
 }
 }
