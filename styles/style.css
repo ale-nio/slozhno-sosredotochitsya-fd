@@ -120,6 +120,7 @@
   font-family: var(--main-font, monospace);
   font-weight: 700;
   line-height: 84%;
+  margin-top: 20px;
 }
 
 @media (width >= 768px) {
