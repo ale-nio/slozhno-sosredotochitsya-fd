@@ -1,5 +1,3 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   background-color: var(--bg-color, #000028);
   background-image: var(--bg-cover-image);
@@ -171,7 +169,6 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
-  gap: var(--max-gap);
 }
 
 .title-decor_text {
@@ -208,7 +205,7 @@ div {
 .section {
   display: grid;
   grid-template-rows:minmax(min-content, max-content);
-  gap: 20px;
+  
 }
 
 @media (width >= 768px) {
@@ -294,7 +291,7 @@ div {
 .section__images {
   display: grid;
   grid-template-rows: minmax(min-content, max-content);
-  gap: var(--min-gap);
+  gap: var(--max-gap);
 }
 
 .title-decor_light {
@@ -304,7 +301,7 @@ div {
 .article__image-item {
   display: grid;
   grid-template-rows: minmax(min-content, max-content);
-  gap: var(--min-gap);
+  margin-top: 20px;
 }
 
 @media (width >= 768px) {
@@ -317,7 +314,6 @@ div {
   .article__image-item {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, minmax(min-content, max-content));
-    gap: var(--min-gap);
     grid-template-areas:
     "sunset sunset icecream"
     "tape books icecream"
