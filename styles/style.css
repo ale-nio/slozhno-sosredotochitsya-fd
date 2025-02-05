@@ -171,6 +171,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
+  gap: var(--max-gap);
 }
 
 .title-decor_text {
