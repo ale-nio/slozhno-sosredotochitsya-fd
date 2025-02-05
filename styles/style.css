@@ -316,7 +316,7 @@ div {
   .article__image-item {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, minmax(min-content, max-content));
-    gap: -20px;
+    gap: var(--min-gap);
     grid-template-areas:
     "sunset sunset icecream"
     "tape books icecream"
