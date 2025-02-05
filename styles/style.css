@@ -186,7 +186,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
   margin-block-start: 40px;
   padding-inline: 10px;
 }
@@ -207,6 +206,7 @@ div {
 .section {
   display: grid;
   grid-template-rows:minmax(min-content, max-content);
+  margin-top: 20px;
   
 }
 
