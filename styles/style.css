@@ -250,7 +250,7 @@ div {
 .article__section-list {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media (width >= 1024px) {
