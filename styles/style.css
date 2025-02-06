@@ -1,5 +1,6 @@
 .page {
   background-color: var(--bg-color, #000028);
+  background-image: var(--bg-cover-image);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -11,12 +12,12 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
-  background-image: var(--bg-cover-image);
   position: relative;
   block-size: 100vh;
-  padding-block: 10px;
   min-block-size: 668px;
   padding-inline: 10px;
+  padding-block: 10px;
+
 }
 
 @media (width >= 768px) {
@@ -118,7 +119,6 @@
   font-family: var(--main-font, monospace);
   font-weight: 700;
   line-height: 84%;
-  margin-top: 20px;
 }
 
 @media (width >= 768px) {
@@ -169,7 +169,6 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 130%;
-  
 }
 
 .title-decor_text {
@@ -185,12 +184,14 @@
 .main {
   display: flex;
   flex-direction: column;
+  gap: 50px;
+  margin-block-start: 40px;
   padding-inline: 10px;
 }
 
 @media (width >= 768px) {
   .main {
-    gap: 100px;
+    gap: 80px;
     padding: 20px 20px;
   }
 }
@@ -204,8 +205,7 @@ div {
 .section {
   display: grid;
   grid-template-rows:minmax(min-content, max-content);
-  margin-top: 5px;
-  
+  gap: 20px;
 }
 
 @media (width >= 768px) {
@@ -220,7 +220,6 @@ div {
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  margin-bottom: 20px;
 }
 
 @media (width >= 768px) {
@@ -264,12 +263,12 @@ div {
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
-  margin-top: 20px;
 }
 
 .article__section-list-item {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .text__link {
@@ -292,7 +291,7 @@ div {
 .section__images {
   display: grid;
   grid-template-rows: minmax(min-content, max-content);
-  gap: var(--max-gap);
+  gap: var(--min-gap);
 }
 
 .title-decor_light {
@@ -302,7 +301,7 @@ div {
 .article__image-item {
   display: grid;
   grid-template-rows: minmax(min-content, max-content);
-  margin-top: 20px;
+  gap: var(--min-gap);
 }
 
 @media (width >= 768px) {
@@ -315,6 +314,7 @@ div {
   .article__image-item {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, minmax(min-content, max-content));
+    gap: 20px;
     grid-template-areas:
     "sunset sunset icecream"
     "tape books icecream"
@@ -387,7 +387,6 @@ div {
   color: var(--footer-color);
   font-weight: 700;
   line-height: 95.7%;
-  margin-top: 10px;
 }
 
 @media (width >= 768px) {
