@@ -119,7 +119,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-shadow: 4px 4px 0 var(--header-shadow-color);
   font-family: var(--main-font, monospace);
-  padding-top: 10px;
+  padding-top: 20px;
   font-weight: 700;
   line-height: 84%;
   margin-left: -20px;
@@ -389,7 +389,7 @@ div {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-shadow: 2px 2px 0 var(--footer-shadow-color);
   color: var(--footer-color);
-  padding-top: 10px;
+  padding-top: 20px;
   font-weight: 700;
   line-height: 95.7%;
 }
