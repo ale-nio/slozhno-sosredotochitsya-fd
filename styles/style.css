@@ -2,7 +2,6 @@
 
 .page {
   background-color: var(--bg-color, #000028);
-  background-image: var(--bg-cover-image);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -13,6 +12,7 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
+  background-image: var(--bg-cover-image);
   align-items: center;
   position: relative;
   block-size: 100vh;
@@ -121,6 +121,8 @@
   font-family: var(--main-font, monospace);
   font-weight: 700;
   line-height: 84%;
+  margin-left: -20px;
+  
 }
 
 @media (width >= 768px) {
@@ -293,7 +295,7 @@ div {
 .section__images {
   display: grid;
   grid-template-rows: minmax(min-content, max-content);
-  gap: var(--min-gap);
+  gap: 20px;
 }
 
 .title-decor_light {
