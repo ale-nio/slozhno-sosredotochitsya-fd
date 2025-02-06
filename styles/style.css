@@ -190,7 +190,7 @@
 
 @media (width >= 768px) {
   .main {
-    gap: 50px;
+    gap: 100px;
     padding: 20px 20px;
   }
 }
