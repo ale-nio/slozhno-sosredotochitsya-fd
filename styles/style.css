@@ -14,10 +14,9 @@
   background-image: var(--bg-cover-image);
   position: relative;
   block-size: 100vh;
+  padding-block: 10px;
   min-block-size: 668px;
   padding-inline: 10px;
-  padding-block: 10px;
-  
 }
 
 @media (width >= 768px) {
