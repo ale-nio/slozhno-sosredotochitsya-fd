@@ -35,7 +35,7 @@
   --bg-color: #000028;
   --article-text-color: #F1B2CE;
   --bg-accent-color: #FF0070;
-  --bg-cover-image: url(../images/cover-image-dark.png);
+  --bg-cover-image: url("../images/cover-image-dark.png");
   --accent-color: #FF0070;
   --header-color: #DB00FF;
   --header-shadow-color: #FF0070;
