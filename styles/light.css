@@ -4,7 +4,7 @@
   переключая тему
 */
 
-.page.theme_light {
+:root.theme-light {
   --bg-color: #FFF1F7;
   --bg-cover-image: url(../images/cover-image-light.png);
   --accent-color: #FF8DCB;
@@ -27,7 +27,7 @@
   --link-hover-color: #353430;
 }
 
-.theme_light .header__rec {
+.theme-light .header__rec {
   display: none;
 }
 

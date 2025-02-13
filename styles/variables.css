@@ -1,6 +1,6 @@
 :root {
   --main-font: "IBM Plex Mono", monospace;
-  --bg-cover-image: url("../images/cover-image-dark.png");
+  --bg-cover-image: url(../images/cover-image-dark.png);
   --article-text-color: #F1B2CE;
   --bg-color: #000028;
   --accent-color: #FF0070;
